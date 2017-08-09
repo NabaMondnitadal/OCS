@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.paymethod.paypal.displayName' => 'Paypal',
+  'plugins.paymethod.paypal.settings.paypalenable' => 'Enable PayPal',
+  'plugins.paymethod.paypal.settings.paypalurl' => 'IPN URL',
+  'plugins.paymethod.paypal.settings.paypalurl.description' => 'This is the URL to PayPal\'s Instant Payment Notification (IPN) service. For testing, use <u>https://www.sandbox.paypal.com/cgi-bin/webscr</u>; for production systems, use <u>https://www.paypal.com/cgi-bin/webscr</u>.',
+  'plugins.paymethod.paypal.settings.selleraccount' => 'Seller Account',
+  'plugins.paymethod.paypal.settings.selleraccount.description' => 'This is the PayPal account username for the sellers\' account to be used, typically an email address.',
+  'plugins.paymethod.paypal.settings.curlNotInstalled' => 'Warning: CURL support for PHP is not installed. PayPal payment support requires the CURL library and will not function until it is installed.',
+  'plugins.paymethod.paypal.settings' => 'PayPal Settings',
+  'plugins.paymethod.paypal' => 'PayPal Payment',
+  'plugins.paymethod.paypal.description' => 'The PayPal Plugin enables users, whether or not they are PayPal members, to use all major credit cards, as well as eChecks, when paying through the system. The Conference Manager will need to set up a <a href="http://www.paypal.com" target="_new">PayPal Business Account</a> to use this payment option.',
+  'plugins.paymethod.paypal.warning' => 'Clicking Continue will direct you to the PayPal site.  After making your payment with PayPal you can click the "Return to Merchant" button to return to this site.',
+  'plugins.paymethod.paypal.purchase.amount' => 'Amount',
+  'plugins.paymethod.paypal.purchase.description' => 'Description',
+  'plugins.paymethod.paypal.purchase.cancelled' => 'Your purchase has been cancelled.',
+  'plugins.paymethod.paypal.purchase.cancelled.title' => 'Purchase Cancelled',
+); ?>
